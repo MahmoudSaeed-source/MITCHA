@@ -10,7 +10,7 @@ export let content_Currency = document.querySelector(".content-Currency");
 export let logo_cunt = document.querySelector(".logo_cunt");
 export let input_Search = document.querySelector("#search");
 export let icon_search = document.querySelector(".icon_search");
-let images_src = ["./images/homepage/slider/1.webp","./images/homepage/slider/2.webp","../images/homepage/slider/3.webp","../images/homepage/slider/4.webp"];
+let images_src = ["./images/homepage/slider/1.webp","./images/homepage/slider/2.webp","./images/homepage/slider/3.webp","./images/homepage/slider/4.webp"];
 let next_btn = document.querySelector(".next");
 let back_btn = document.querySelector(".back");
 let slider_images = document.querySelector(".slider_images");
@@ -47,9 +47,7 @@ export function ShowMenu() {
 //start chang content of languages an currency
 GetContent_Currency()
 export function GetContent_Currency() {
-
     data_content.forEach(Element => {
-
         Element.addEventListener("click",() => {
             logo_cunt.src = Element.children[0].src;
             country.innerText = Element.children[1].innerText;
