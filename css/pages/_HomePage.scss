@@ -136,6 +136,7 @@ header {
     font-family: $main-font;
     font-weight: lighter;
     color: #333;
+    position: relative;
 
     option {
       width: 70px;
@@ -147,12 +148,25 @@ header {
       border: none;
       border-bottom: 1px solid #333;
       width: 180px;
-
       &:focus {
         border: none;
         outline: none;
         border-bottom: 1px solid #333;
       }
+     
+    }
+    .massagewrong{
+      color:#f00;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 15px ;
+      font-family: $main-font;
+      letter-spacing: 1.4;
+      text-transform: capitalize;
+      display: none;
+      
     }
 
     a {

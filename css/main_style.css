@@ -11064,6 +11064,7 @@ header .section_right {
   font-family: "Mukta", sans-serif;
   font-weight: lighter;
   color: #333;
+  position: relative;
 }
 header .section_right option {
   width: 70px;
@@ -11079,6 +11080,18 @@ header .section_right #search:focus {
   border: none;
   outline: none;
   border-bottom: 1px solid #333;
+}
+header .section_right .massagewrong {
+  color: #f00;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  font-family: "Mukta", sans-serif;
+  letter-spacing: 1.4;
+  text-transform: capitalize;
+  display: none;
 }
 header .section_right a {
   color: #333;

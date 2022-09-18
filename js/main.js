@@ -18,8 +18,17 @@ let scrollRight = document.querySelector(".right");
 
 // end variables
 icon_search.addEventListener("click",() => {
-    location.href = "./pagesHtml/search.html";
-    localStorage.setItem("value",input_Search.value);
+    const ms = document.querySelector(".massagewrong");
+    if(input_Search.value === "") {
+        ms.style.display = "flex";
+    }else {
+        location.href = "./pagesHtml/search.html";
+        localStorage.setItem("value",input_Search.value);
+    }
+    input_Search.onfocus = () => {
+        ms.style.display = "none"
+    }
+    
 })
 //  start show menu lang
 ActiveClass();
