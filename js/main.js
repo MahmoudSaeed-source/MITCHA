@@ -18,7 +18,7 @@ let scrollRight = document.querySelector(".right");
 
 // end variables
 icon_search.addEventListener("click",() => {
-    location.href = "../pagesHtml/search.html";
+    location.href = "./pagesHtml/search.html";
     localStorage.setItem("value",input_Search.value);
 })
 //  start show menu lang
@@ -51,10 +51,7 @@ export function GetContent_Currency() {
     data_content.forEach(Element => {
 
         Element.addEventListener("click",() => {
-
             logo_cunt.src = Element.children[0].src;
-
-
             country.innerText = Element.children[1].innerText;
             content_Currency.classList.remove("active");
         })
