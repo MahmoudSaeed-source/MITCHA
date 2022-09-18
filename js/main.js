@@ -1,6 +1,6 @@
 import { SetData,GetDataLocal } from "./localstorage.js";
 import { Get_Data } from "./FetchData.js";
-let URL = "../json-files/homeslider.json";
+let URL = "./json-files/homeslider.json";
 // start variables
 export let language = document.querySelector(".language");
 export let content = document.querySelector(".content");
