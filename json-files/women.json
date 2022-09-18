@@ -1,0 +1,202 @@
+[
+    {
+        "id":"1",
+        "type":"womendress",
+        "BrandName":" FG",
+        "productName":"Lycra wine red one size dress",
+        "price":"375",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item1"
+            },
+            {
+                "src2":"images/women_shirt/item1previwe1"
+            }
+        ],
+        "color":"red",
+        "brand":" FG",
+        "FabricType" : "Lycra"
+
+    },
+    {
+        "id":"2",
+        "type":"womendress",
+        "BrandName":" Jamila",
+        "productName":"Jamila womens Elbow Sleeves Solid Brown Dress With Hem Elbow Sleeves Solid Brown Dress With Hem",
+        "price":"149.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item2"
+            },
+            {
+                "src2":"images/women_shirt/item2previwe1"
+            }
+        ],
+        "color":"camel",
+        "brand":" Jamila",
+        "FabricType" : "Elbow Sleeves Solid Brown Dress With Hem"
+
+    },
+    {
+        "id":"3",
+        "type":"womendress",
+        "BrandName":" FG",
+        "productName":"Red Wine Peplum Casual Dress For Women",
+        "price":"400.",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item3"
+            },
+            {
+                "src2":"images/women_shirt/item3previwe1"
+            }
+        ],
+        "color":"Red",
+        "brand":" FG",
+        "FabricType" : "Sleeve Length Sleeveless occasion : Casual"
+
+    },
+    {
+        "id":"4",
+        "type":"womendress",
+        "BrandName":" Generic",
+        "productName":"Yellow Women Chiffon Dress with Lining",
+        "price":"450.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item4"
+            },
+            {
+                "src2":"images/women_shirt/item4previwe1"
+            }
+        ],
+        "color":"yellow",
+        "brand":" Generic",
+        "FabricType" : "Sleeve Length Sleeveless occasion : Casual"
+
+    },
+    {
+        "id":"5",
+        "type":"womendress",
+        "BrandName":" Generic",
+        "productName":"Green Off Shoulder Chiffon Women Dress",
+        "price":"325.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item5"
+            },
+            {
+                "src2":"images/women_shirt/item5previwe1"
+            }
+        ],
+        "color":"green",
+        "brand":" Generic",
+        "FabricType" : "Sleeve Length Sleeveless occasion : Casual"
+
+    },
+    {
+        "id":"6",
+        "type":"womendress",
+        "BrandName":" El Negm ElSharky",
+        "productName":"Long - Half Tunic - Fitted Top",
+        "price":"225.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item6"
+            },
+            {
+                "src2":"images/women_shirt/item6previwe1"
+            }
+        ],
+        "color":"green",
+        "brand":" El Negm ElSharky",
+        "FabricType" : "Brand - El Negm ElSharkyBlack colour"
+
+    },
+    {
+        "id":"7",
+        "type":"womendress",
+        "BrandName":" Pinky",
+        "productName":"Long Blouse for women",
+        "price":"350.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item7"
+            },
+            {
+                "src2":"images/women_shirt/item7previwe1"
+            }
+        ],
+        "color":"Multi Color",
+        "brand":" Pinky",
+        "FabricType" : "Material Composition : 100% Cotton"
+
+    },
+    {
+        "id":"8",
+        "type":"womendress",
+        "BrandName":" Generic",
+        "productName":"Black Women Cotton Long Blouse",
+        "price":"300.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item8"
+            },
+            {
+                "src2":"images/women_shirt/item8previwe1"
+            }
+        ],
+        "color":"Multi Color",
+        "brand":" Pinky",
+        "FabricType" : "Easy to clean and maintainPremium finish"
+
+    },
+    {
+        "id":"9",
+        "type":"womendress",
+        "BrandName":" M.Sou",
+        "productName":"M.Sou Women Tied Neck Collar Solid Blouse ",
+        "price":"199.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item9"
+            },
+            {
+                "src2":"images/women_shirt/item9previwe1"
+            }
+        ],
+        "color":"Multi Color",
+        "brand":" M.Sou",
+        "FabricType" : "Polyester Our Model Is Wearing Size M Polyester Materialregular Fitlong Sleevessolid Patterntied Neck Collar Slip On"
+
+    },
+    {
+        "id":"10",
+        "type":"womendress",
+        "BrandName":" Jamila",
+        "productName":"Jamila Plain Wide Cuffed Long Sleeves Round Neck Loose Blouse for Women ",
+        "price":"159.00",
+        "src":
+        [
+            {
+                "src1":"images/women_shirt/item10"
+            },
+            {
+                "src2":"images/women_shirt/item10previwe1"
+            }
+        ],
+        "color":"Multi Color",
+        "brand":" Jamila",
+        "FabricType" : "Polyester Our Model Is Wearing Size M Polyester Materialregular Fitlong Sleevessolid Patterntied Neck Collar Slip On"
+
+    }
+]

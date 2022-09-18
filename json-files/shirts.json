@@ -1,0 +1,287 @@
+[
+    {
+        "id": "1",
+        "type":"shirts",
+        "Brand-name": "Nexus",
+        "product-name": "Nexus men's Haze Training Top",
+        "price": "270.00",
+        "src": "./images/men_shirt/shirt1",
+        "details": [
+            {
+                "Brand": "Nexus"
+            },
+            {
+                "ores": "100% Polyester"
+            },
+            {
+                "Quality": "Excellent craftsmanship"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "type":"shirts",
+        "Brand-name": "Nexus",
+        "product-name": "Nexus men's Modern Camo Training Top",
+        "price": "300.00 ",
+        "src": "./images/men_shirt/shirt2",
+        "details": [
+            {
+                "Brand": "Nexus"
+            },
+            {
+                "ores": "100% Polyester"
+            },
+            {
+                "Quality": "Excellent craftsmanship"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "type":"shirts",
+        "Brand-name": "Nexus",
+        "product-name": "Nexus Men Camo Training T-Shirt",
+        "price": "300.00 ",
+        "src": "./images/men_shirt/shirt3",
+        "details": [
+            {
+                "Brand": "Nexus"
+            },
+            {
+                "ores": "Lightweight training T-Shirt"
+            },
+            {
+                "Quality": "Perfect for the gym, football and other outdoor sports"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "type":"shirts",
+        "Brand-name": "Nexus",
+        "product-name": "Nexus men's Nexus Core Collection",
+        "price": "300.00 ",
+        "src": "./images/men_shirt/shirt4",
+        "details": [
+            {
+                "Brand": "Nexus"
+            },
+            {
+                "ores": "100% Polyester"
+            },
+            {
+                "Quality": "Excellent craftsmanship"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "Brand-name": "Ravin",
+        "product-name": "Ravin mens Ravin 96441 Side Pocket Printed",
+        "price": "289.99 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt5"
+            },
+            {
+                "src1": "./images/men_shirt/shirt5previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt5previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt5previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt5previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "Nexus"
+            },
+            {
+                "ores":" Printed pattern"
+            },
+            {
+                "Quality": "Long Sleeves"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "type":"shirts",
+        "Brand-name": "CAESAR",
+        "product-name": "CAESAR Men Hoodie With Pants Training Suit Anorak",
+        "price": "249 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt6"
+            },
+            {
+                "src1": "./images/men_shirt/shirt6previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt6previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt6previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt6previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "CAESAR"
+            },
+            {
+                "ores":" Printed pattern"
+            },
+            {
+                "Quality": "Long Sleeves"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "type":"shirts",
+        "Brand-name": "Coup",
+        "product-name": "Coup",
+        "price": "389 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt7"
+            },
+            {
+                "src1": "./images/men_shirt/shirt7previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt7previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt7previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt7previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "Coup"
+            },
+            {
+                "ores":" Coup - Slim Fit Plain Hoodie with Long Sleeves and Kangaroo Pockets"
+            },
+            {
+                "Quality": "Long Sleeves"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "type":"shirts",
+        "Brand-name": " Coup",
+        "product-name": "Coup mens Coup - Panel Blocked Hooded Sweatshirt with Long Sleeves Hooded Sweatshirt",
+        "price": "699 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt8"
+            },
+            {
+                "src1": "./images/men_shirt/shirt8previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt8previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt8previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt8previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "Coup"
+            },
+            {
+                "ores":"Coup - Panel Blocked Hooded Sweatshirt with Long Sleeves"
+            },
+            {
+                "Quality": "Long Sleeves"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "type":"shirts",
+        "Brand-name": " Reebok",
+        "product-name": "Reebok Men's Wor Sup Ss Graphic Tee T-Shirt",
+        "price": "539 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt9"
+            },
+            {
+                "src1": "./images/men_shirt/shirt9previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt9previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt9previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt9previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "Reebok"
+            },
+            {
+                "ores":"Made in Vietnam"
+            },
+            {
+                "Quality": "65% Polyester - 35% Viscose Slim fit"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "type":"shirts",
+        "Brand-name": " Generic",
+        "product-name": "Men's Lycra Indoor/Outdoor Bengalen Pants",
+        "price": "99.99 ",
+        "src": [
+            {
+                "src1": "./images/men_shirt/shirt10"
+            },
+            {
+                "src1": "./images/men_shirt/shirt10previwe1"
+            },
+            {
+                "src1": "./images/men_shirt/shirt10previwe2"
+            },
+            {
+                "src1": "./images/men_shirt/shirt10previwe3"
+            },
+            {
+                "src1": "./images/men_shirt/shirt10previwe4"
+            }
+        ],
+        "details": [
+            {
+                "Brand": "Reebok"
+            },
+            {
+                "ores":"Stretchy Lycra material for easy movement and wear comfort  With 2 side pockets and back pocket"
+            },
+            {
+                "Quality": "Men's Fit Sweatpants Various Size Wear 50K 120K Has elastic at waist and elastic under leg"
+            }
+        ]
+    }
+]
