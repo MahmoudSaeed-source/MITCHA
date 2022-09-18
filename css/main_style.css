@@ -11158,7 +11158,7 @@ header .links .links_items > li:first-of-type {
 .slider .slider_images {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/homepage/slider/3.webp);
+  background-image: url(.././images/homepage/slider/3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11195,7 +11195,7 @@ header .links .links_items > li:first-of-type {
 .supporting .supporting_image, .All-item-sale .supporting_image, .All-item-sale .All-item-sale_image {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/homepage/supporting.webp);
+  background-image: url(.././images/homepage/supporting.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11203,7 +11203,7 @@ header .links .links_items > li:first-of-type {
 }
 
 .All-item-sale .All-item-sale_image {
-  background-image: url(../../images/homepage/allitemsale.webp);
+  background-image: url(.././images/homepage/allitemsale.webp);
 }
 
 .section-product {
@@ -11235,23 +11235,23 @@ header .links .links_items > li:first-of-type {
   max-height: 370px;
 }
 .section-product .section.one {
-  background-image: url(../../images/homepage/section3/4.webp);
+  background-image: url(.././images/homepage/section3/4.webp);
 }
 .section-product .section.two {
-  background-image: url(../../images/homepage/section3/3.webp);
+  background-image: url(.././images/homepage/section3/3.webp);
 }
 .section-product .section.three {
-  background-image: url(../../images/homepage/section3/2.webp);
+  background-image: url(.././images/homepage/section3/2.webp);
 }
 .section-product .section.four {
-  background-image: url(../../images/homepage/section3/1.webp);
+  background-image: url(.././images/homepage/section3/1.webp);
 }
 .section-product .section-bottom {
   width: 100%;
   height: 300px;
 }
 .section-product .section-bottom .section_bottom_one, .section-product .section-bottom .section_bottom_two {
-  background-image: url(../../images/homepage/section3/5.webp);
+  background-image: url(.././images/homepage/section3/5.webp);
   background-size: cove;
   background-position: center;
   background-repeat: no-repeat;
@@ -11259,14 +11259,14 @@ header .links .links_items > li:first-of-type {
   height: 100%;
 }
 .section-product .section-bottom .section_bottom_two {
-  background-image: url(../../images/homepage/section3/6.webp);
+  background-image: url(.././images/homepage/section3/6.webp);
 }
 
 .section_summer {
   margin-top: 0;
 }
 .section_summer .summer_image {
-  background-image: url(../../images/homepage/summer.jpg);
+  background-image: url(.././images/homepage/summer.jpg);
 }
 
 .design-of-week {

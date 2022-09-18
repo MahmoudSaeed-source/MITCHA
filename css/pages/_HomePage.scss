@@ -251,7 +251,7 @@ header {
   .slider_images {
     width: 100%;
     height: 100%;
-    background-image: url(../../images/homepage/slider/3.webp);
+    background-image: url(.././images/homepage/slider/3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -296,7 +296,7 @@ header {
   .supporting_image {
     width: 100%;
     height: 100%;
-    background-image: url(../../images/homepage/supporting.webp);
+    background-image: url(.././images/homepage/supporting.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -312,7 +312,7 @@ header {
 
   .All-item-sale_image {
     @extend .supporting_image;
-    background-image: url(../../images/homepage/allitemsale.webp);
+    background-image: url(.././images/homepage/allitemsale.webp);
   }
 }
 
@@ -351,19 +351,19 @@ header {
     max-height: 370px;
 
     &.one {
-      background-image: url(../../images/homepage/section3/4.webp);
+      background-image: url(.././images/homepage/section3/4.webp);
     }
 
     &.two {
-      background-image: url(../../images/homepage/section3/3.webp);
+      background-image: url(.././images/homepage/section3/3.webp);
     }
 
     &.three {
-      background-image: url(../../images/homepage/section3/2.webp);
+      background-image: url(.././images/homepage/section3/2.webp);
     }
 
     &.four {
-      background-image: url(../../images/homepage/section3/1.webp);
+      background-image: url(.././images/homepage/section3/1.webp);
     }
   }
 
@@ -372,7 +372,7 @@ header {
     height: 300px;
 
     .section_bottom_one {
-      background-image: url(../../images/homepage/section3/5.webp);
+      background-image: url(.././images/homepage/section3/5.webp);
       background-size: cove;
       background-position: center;
       background-repeat: no-repeat;
@@ -381,7 +381,7 @@ header {
     }
 
     .section_bottom_two {
-      background-image: url(../../images/homepage/section3/6.webp);
+      background-image: url(.././images/homepage/section3/6.webp);
       @extend .section_bottom_one;
     }
   }
@@ -396,7 +396,7 @@ header {
 
   .summer_image {
     @extend .sale;
-    background-image: url(../../images/homepage/summer.jpg);
+    background-image: url(.././images/homepage/summer.jpg);
   }
 }
 
