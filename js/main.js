@@ -15,21 +15,22 @@ let next_btn = document.querySelector(".next");
 let back_btn = document.querySelector(".back");
 let slider_images = document.querySelector(".slider_images");
 let scrollRight = document.querySelector(".right");
+let serchScreen_box = document.querySelector(".serchScreen_box");
+let close_icon = document.querySelector(".close");
 
 // end variables
-icon_search.addEventListener("click",() => {
-    const ms = document.querySelector(".massagewrong");
-    if(input_Search.value === "") {
-        ms.style.display = "flex";
-    }else {
-        location.href = "./pagesHtml/search.html";
-        localStorage.setItem("value",input_Search.value);
-    }
-    input_Search.onfocus = () => {
-        ms.style.display = "none"
-    }
-    
+// start serch function 
+input_Search.addEventListener("click",() => {
+    serchScreen_box.classList.add("open");
 })
+console.log(close_icon)
+
+
+    
+
+
+
+// end serch function 
 //  start show menu lang
 ActiveClass();
 export function ActiveClass() {

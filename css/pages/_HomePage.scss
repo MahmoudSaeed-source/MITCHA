@@ -4,7 +4,71 @@ header {
   padding: 10px 10px;
   height: 400px;
   font-family: $main-font;
+  position: relative;
+.serchScreen_box{
+  padding: 20px;
+  overflow: hidden;
+position: absolute;
+display: flex;
+flex-direction: column;
+  top: 68px;
+  right: 10%;
+  width: 30%;
+ height:200px;
+  background-color: rgb(255, 250, 250);
+ display: none;
+ &.open{
+  display: flex;
+ }
+  h6{
+    border-bottom: 1px solid #ddd;
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    svg{
+      border: 1px solid rgb(241, 239, 239);
+      cursor: pointer;
+      padding: 3px;
+    }
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    height: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+   padding:20px 2px;
+    li{
+        display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: #f1eeee;
+          color: rgb(173 159 159);
+          width: auto;
+          padding: 10px;
+          height: 40px;
+          margin-left: 20px;
+          margin-bottom: 20px;
+          cursor: pointer;
+      svg{
+        color:rgb(105, 102, 102);
+        margin-right: 5px;
+        width: 14px;
+        height: 14px;
+      }
+      span{
+        font-size: 14px;
+      }
+    }
+  }
 
+}
   .section_center img {
     width: 320px;
     height: 80px;
@@ -155,19 +219,7 @@ header {
       }
      
     }
-    .massagewrong{
-      color:#f00;
-      position: absolute;
-      bottom: 0px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 15px ;
-      font-family: $main-font;
-      letter-spacing: 1.4;
-      text-transform: capitalize;
-      display: none;
-      
-    }
+    
 
     a {
       color: #333;
