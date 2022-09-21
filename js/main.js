@@ -23,11 +23,6 @@ let close_icon = document.querySelector(".close");
 input_Search.addEventListener("click",() => {
     serchScreen_box.classList.add("open");
 })
-console.log(close_icon)
-
-
-    
-
 
 
 // end serch function 
