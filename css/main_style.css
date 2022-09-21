@@ -10967,8 +10967,14 @@ header .serchScreen_box h6, header .serchScreen_box .h6 {
   align-items: center;
   justify-content: space-between;
 }
-header .serchScreen_box h6 svg, header .serchScreen_box .h6 svg {
-  border: 1px solid rgb(241, 239, 239);
+header .serchScreen_box h6 .Btn_close, header .serchScreen_box .h6 .Btn_close {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .serchScreen_box h6 .Btn_close svg, header .serchScreen_box .h6 .Btn_close svg {
   cursor: pointer;
   padding: 3px;
 }

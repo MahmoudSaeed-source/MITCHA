@@ -1,6 +1,7 @@
 import { SetData,GetDataLocal } from "./localstorage.js";
 import { Get_Data } from "./FetchData.js";
-let URL = "./json-files/homeslider.json";
+const URL = "./json-files/homeslider.json";
+const Url_all = "./json-files/AllData.json";
 // start variables
 export let language = document.querySelector(".language");
 export let content = document.querySelector(".content");
@@ -9,22 +10,39 @@ export let country = document.querySelector(".country");
 export let content_Currency = document.querySelector(".content-Currency");
 export let logo_cunt = document.querySelector(".logo_cunt");
 export let input_Search = document.querySelector("#search");
-export let icon_search = document.querySelector(".icon_search");
 let images_src = ["./images/homepage/slider/1.webp","./images/homepage/slider/2.webp","./images/homepage/slider/3.webp","./images/homepage/slider/4.webp"];
 let next_btn = document.querySelector(".next");
 let back_btn = document.querySelector(".back");
 let slider_images = document.querySelector(".slider_images");
 let scrollRight = document.querySelector(".right");
 let serchScreen_box = document.querySelector(".serchScreen_box");
-let close_icon = document.querySelector(".close");
+let Btn_close = document.querySelector(".Btn_close");
 
-// end variables
+// end variablesd
+
 // start serch function 
 input_Search.addEventListener("click",() => {
     serchScreen_box.classList.add("open");
+    filter();
 })
-
-
+Btn_close.addEventListener("click",(e) => {
+    e.preventDefault();
+    serchScreen_box.classList.remove("open");
+})
+// input_Search.addEventListener("keyup",() => {
+//     filter();
+// }
+function filter() {
+    const value_Input = input_Search.value;
+    Get_Data(Url_all).then(data => {
+        if(value_Input == data.type || value_Input == data.Brand || value_Input == data.NameProduct || value_Input == data.price) {
+          return  console.log(data)
+        } else {
+            return console.log("none")
+        }
+    })
+   
+}
 // end serch function 
 //  start show menu lang
 ActiveClass();
