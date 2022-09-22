@@ -29,24 +29,39 @@ Btn_close.addEventListener("click",(e) => {
     e.preventDefault();
     serchScreen_box.classList.remove("open");
 })
-// input_Search.addEventListener("keyup",() => {
-//     const viewSerchRosults_content = document.querySelector(".viewSerchRosults_content");
-//     let result = [];
-//     Get_Data(Url_all).then(data => {
-//         data.forEach(DataPeodcut => {
-//             if( DataPeodcut.Brand.includes(input_Search.value)) {
-//                 result += ` <div class="content_items_search">
-//             <img src="${DataPeodcut.src[0].src1}" alt="${DataPeodcut.id}">
-//             <h4 class="title_item_search">${DataPeodcut.productName}</h4>
-//             </div>`;
-//                 viewSerchRosults_content.innerHTML =result
-//             } else if(input_Search.value == "") {
-//                 viewSerchRosults_content.innerHTML = "";
-//            }
-//        })
+let Prodcuts_Data = [];
+let results = [];
+input_Search.addEventListener("keyup",() => {
+    const viewSerchRosults_content = document.querySelector(".viewSerchRosults_content");
+    const inPut_Value = input_Search.value.toLowerCase();
+    let filter_Prodcuts_Data = Prodcuts_Data.filter(pro => {
+        return pro.brand.toLowerCase().includes(inPut_Value) || pro.title.toLowerCase().includes(inPut_Value)
+    })
+    Prodcuts_Data.forEach(product => {
+        results += ` <div class="content_items_search" >
+            <img src="${product.src[0].src1}" alt="${product.id}">
+                <h4 class="title_item_search">${product.title}</h4>
+            </div>`;
+    })
+    if(filter_Prodcuts_Data) {
+        Prodcuts_Data.forEach(product => {
+            results += ` <div class="content_items_search" >
+            <img src="${product.src[0].src1}" alt="${product.id}">
+                <h4 class="title_item_search">${product.title}</h4>
+            </div>`;
+            viewSerchRosults_content.innerHTML += results;
+        })
+    } else {
+        results = []
+        viewSerchRosults_content.innerHTML ="";
+    }
     
-//     })
-// })
+})
+GetProducts()
+async function GetProducts() {
+    let fet = await fetch(URL);
+    Prodcuts_Data = await fet.json();
+}
 
    
 
