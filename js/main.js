@@ -23,15 +23,13 @@ let Btn_close = document.querySelector(".Btn_close");
 // start serch function 
 input_Search.addEventListener("click",() => {
     serchScreen_box.classList.add("open");
-    filter();
+    
 })
 Btn_close.addEventListener("click",(e) => {
     e.preventDefault();
     serchScreen_box.classList.remove("open");
 })
-// input_Search.addEventListener("keyup",() => {
-//     filter();
-// }
+
 function filter() {
     const value_Input = input_Search.value;
     Get_Data(Url_all).then(data => {
