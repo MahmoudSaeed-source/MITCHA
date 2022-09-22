@@ -29,18 +29,27 @@ Btn_close.addEventListener("click",(e) => {
     e.preventDefault();
     serchScreen_box.classList.remove("open");
 })
+// input_Search.addEventListener("keyup",() => {
+//     const viewSerchRosults_content = document.querySelector(".viewSerchRosults_content");
+//     let result = [];
+//     Get_Data(Url_all).then(data => {
+//         data.forEach(DataPeodcut => {
+//             if( DataPeodcut.Brand.includes(input_Search.value)) {
+//                 result += ` <div class="content_items_search">
+//             <img src="${DataPeodcut.src[0].src1}" alt="${DataPeodcut.id}">
+//             <h4 class="title_item_search">${DataPeodcut.productName}</h4>
+//             </div>`;
+//                 viewSerchRosults_content.innerHTML =result
+//             } else if(input_Search.value == "") {
+//                 viewSerchRosults_content.innerHTML = "";
+//            }
+//        })
+    
+//     })
+// })
 
-function filter() {
-    const value_Input = input_Search.value;
-    Get_Data(Url_all).then(data => {
-        if(value_Input === data.type || value_Input === data.Brand || value_Input === data.NameProduct || value_Input === data.price) {
-          return  console.log(data)
-        } else {
-            return console.log("none")
-        }
-    })
    
-}
+
 // end serch function 
 //  start show menu lang
 ActiveClass();

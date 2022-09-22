@@ -142,7 +142,7 @@
         "id": "1",
         "type":"shirts",
         "Brand": "Nexus",
-        "product-name": "Nexus men's Haze Training Top",
+        "productName": "Nexus men's Haze Training Top",
         "price": "270.00",
         "src": "./images/men_shirt/shirt1",
         "details": [
@@ -161,7 +161,7 @@
         "id": "2",
         "type":"shirts",
         "Brand": "Nexus",
-        "product-name": "Nexus men's Modern Camo Training Top",
+        "productName": "Nexus men's Modern Camo Training Top",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt2",
         "details": [
@@ -180,7 +180,7 @@
         "id": "3",
         "type":"shirts",
         "Brand": "Nexus",
-        "product-name": "Nexus Men Camo Training T-Shirt",
+        "productName": "Nexus Men Camo Training T-Shirt",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt3",
         "details": [
@@ -199,7 +199,7 @@
         "id": "4",
         "type":"shirts",
         "Brand": "Nexus",
-        "product-name": "Nexus men's Nexus Core Collection",
+        "productName": "Nexus men's Nexus Core Collection",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt4",
         "details": [
@@ -217,7 +217,7 @@
     {
         "id": "5",
         "Brand": "Ravin",
-        "product-name": "Ravin mens Ravin 96441 Side Pocket Printed",
+        "productName": "Ravin mens Ravin 96441 Side Pocket Printed",
         "price": "289.99 ",
         "src": [
             {
@@ -252,7 +252,7 @@
         "id": "6",
         "type":"shirts",
         "Brand": "CAESAR",
-        "product-name": "CAESAR Men Hoodie With Pants Training Suit Anorak",
+        "productName": "CAESAR Men Hoodie With Pants Training Suit Anorak",
         "price": "249 ",
         "src": [
             {
@@ -287,7 +287,7 @@
         "id": "7",
         "type":"shirts",
         "Brand": "Coup",
-        "product-name": "Coup",
+        "productName": "Coup",
         "price": "389 ",
         "src": [
             {
@@ -322,7 +322,7 @@
         "id": "8",
         "type":"shirts",
         "Brand": " Coup",
-        "product-name": "Coup mens Coup - Panel Blocked Hooded Sweatshirt with Long Sleeves Hooded Sweatshirt",
+        "productName": "Coup mens Coup - Panel Blocked Hooded Sweatshirt with Long Sleeves Hooded Sweatshirt",
         "price": "699 ",
         "src": [
             {
@@ -357,7 +357,7 @@
         "id": "9",
         "type":"shirts",
         "Brand": " Reebok",
-        "product-name": "Reebok Men's Wor Sup Ss Graphic Tee T-Shirt",
+        "productName": "Reebok Men's Wor Sup Ss Graphic Tee T-Shirt",
         "price": "539 ",
         "src": [
             {
@@ -392,7 +392,7 @@
         "id": "10",
         "type":"shirts",
         "Brand": " Generic",
-        "product-name": "Men's Lycra Indoor/Outdoor Bengalen Pants",
+        "productName": "Men's Lycra Indoor/Outdoor Bengalen Pants",
         "price": "99.99 ",
         "src": [
             {
@@ -425,7 +425,7 @@
     },{
         "id":"1",
         "type":"womendress",
-        "BrandName":" FG",
+        "Brand":" FG",
         "productName":"Lycra wine red one size dress",
         "price":"375",
         "src":
@@ -445,7 +445,7 @@
     {
         "id":"2",
         "type":"womendress",
-        "BrandName":" Jamila",
+        "Brand":" Jamila",
         "productName":"Jamila womens Elbow Sleeves Solid Brown Dress With Hem Elbow Sleeves Solid Brown Dress With Hem",
         "price":"149.00",
         "src":
@@ -465,7 +465,7 @@
     {
         "id":"3",
         "type":"womendress",
-        "BrandName":" FG",
+        "Brand":" FG",
         "productName":"Red Wine Peplum Casual Dress For Women",
         "price":"400.",
         "src":
@@ -485,7 +485,7 @@
     {
         "id":"4",
         "type":"womendress",
-        "BrandName":" Generic",
+        "Brand":" Generic",
         "productName":"Yellow Women Chiffon Dress with Lining",
         "price":"450.00",
         "src":
@@ -505,7 +505,7 @@
     {
         "id":"5",
         "type":"womendress",
-        "BrandName":" Generic",
+        "Brand":" Generic",
         "productName":"Green Off Shoulder Chiffon Women Dress",
         "price":"325.00",
         "src":
@@ -525,7 +525,7 @@
     {
         "id":"6",
         "type":"womendress",
-        "BrandName":" El Negm ElSharky",
+        "Brand":" El Negm ElSharky",
         "productName":"Long - Half Tunic - Fitted Top",
         "price":"225.00",
         "src":
@@ -545,7 +545,7 @@
     {
         "id":"7",
         "type":"womendress",
-        "BrandName":" Pinky",
+        "Brand":" Pinky",
         "productName":"Long Blouse for women",
         "price":"350.00",
         "src":
@@ -565,7 +565,7 @@
     {
         "id":"8",
         "type":"womendress",
-        "BrandName":" Generic",
+        "Brand":" Generic",
         "productName":"Black Women Cotton Long Blouse",
         "price":"300.00",
         "src":
@@ -585,7 +585,7 @@
     {
         "id":"9",
         "type":"womendress",
-        "BrandName":" M.Sou",
+        "Brand":" M.Sou",
         "productName":"M.Sou Women Tied Neck Collar Solid Blouse ",
         "price":"199.00",
         "src":
@@ -605,7 +605,7 @@
     {
         "id":"10",
         "type":"womendress",
-        "BrandName":" Jamila",
+        "Brand":" Jamila",
         "productName":"Jamila Plain Wide Cuffed Long Sleeves Round Neck Loose Blouse for Women ",
         "price":"159.00",
         "src":
@@ -624,7 +624,7 @@
     }, {
         "id":"1",
         "type":"shoes",
-        "brandname":"Dejavu",
+        "Brand":"Dejavu",
         "productname":"Dejavu",
         "price":"559",
         "src":
@@ -644,7 +644,7 @@
     {
         "id":"2",
         "type":"shoes",
-        "brandname":"Hammer",
+        "Brand":"Hammer",
         "productname":"HWBL197-Hammer-Suede lace up with scotch tape boot",
         "price":"199.00",
         "src":
@@ -664,7 +664,7 @@
     {
         "id":"3",
         "type":"shoes",
-        "brandname":"Mr. Joe",
+        "Brand":"Mr. Joe",
         "productname":"Mr. Joe",
         "price":"689.00",
         "src":
@@ -684,7 +684,7 @@
     {
         "id":"4",
         "type":"shoes",
-        "brandname":"Levent",
+        "Brand":"Levent",
         "productname":"Levent Platform Leather Boot For Women",
         "price":"1,250.00",
         "src":
@@ -704,7 +704,7 @@
     {
         "id":"5",
         "type":"shoes",
-        "brandname":"Dejavu",
+        "Brand":"Dejavu",
         "productname":"Dejavu Lace With Golden Dots Lace Pointed Stiletto - Cream",
         "price":"529.00",
         "src":
@@ -724,7 +724,7 @@
     {
         "id":"6",
         "type":"shoes",
-        "brandname":"Dejavu",
+        "Brand":"Dejavu",
         "productname":"Dejavu Decorative",
         "price":"487.00",
         "src":
@@ -744,7 +744,7 @@
     {
         "id":"7",
         "type":"shoes",
-        "brandname":"Varna",
+        "Brand":"Varna",
         "productname":"VARNA Fashion Heels Shoes Sandal Size For Women ",
         "price":"500.00",
         "src":
@@ -764,7 +764,7 @@
     {
         "id":"8",
         "type":"shoes",
-        "brandname":" Reebok",
+        "Brand":" Reebok",
         "productname":"Reebok REEBOK ROYAL COMPLE FTWWHT/HINMIN/ACIYEL GW5289 TENNIS SHOES - LOW (NON FOOTBALL) For Women ",
         "price":"1,039.00",
         "src":
@@ -782,7 +782,7 @@
     {
         "id":"9",
         "type":"shoes",
-        "brandname":" Dejavu",
+        "Brand":" Dejavu",
         "productname":"Dejavu Strass Detailed Lace Fashion Sneakers ",
         "price":"439.00",
         "src":
@@ -800,7 +800,7 @@
     {
         "id":"10",
         "type":"shoes",
-        "brandname":"Grinta",
+        "Brand":"Grinta",
         "productname":"Grinta Women Fashion Sneakers ",
         "price":"700,00",
         "src":
