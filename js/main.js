@@ -37,25 +37,18 @@ input_Search.addEventListener("keyup",() => {
     let filter_Prodcuts_Data = Prodcuts_Data.filter(pro => {
         return pro.brand.toLowerCase().includes(inPut_Value) || pro.title.toLowerCase().includes(inPut_Value)
     })
-    Prodcuts_Data.forEach(product => {
-        results += ` <div class="content_items_search" >
-            <img src="${product.src[0].src1}" alt="${product.id}">
-                <h4 class="title_item_search">${product.title}</h4>
-            </div>`;
-    })
     if(filter_Prodcuts_Data) {
-        Prodcuts_Data.forEach(product => {
+       Prodcuts_Data.forEach(product => {
             results += ` <div class="content_items_search" >
             <img src="${product.src[0].src1}" alt="${product.id}">
                 <h4 class="title_item_search">${product.title}</h4>
             </div>`;
-            viewSerchRosults_content.innerHTML += results;
+           console.log(results)
         })
     } else {
-        results = []
-        viewSerchRosults_content.innerHTML ="";
+       return  results = '';
     }
-    
+   return viewSerchRosults_content.innerHTML = results;
 })
 GetProducts()
 async function GetProducts() {
