@@ -2,7 +2,7 @@
     {
         "id":"1",
         "type":"shoes",
-        "Brand-name":" Grinta",
+        "Brand":" Grinta",
         "NameProduct":"Grinta_Men_Fashion Sneakers-Black_44EU",
         "price":"209.00",
         "src":[
@@ -15,7 +15,7 @@
     {
         "id":"2",
         "type":"shoes",
-        "Brand-name":"  activ",
+        "Brand":"  activ",
         "NameProduct":"ACTIV CASUAL FASHION SHOES,WHITE,39",
         "price":"599.00",
         "src":[
@@ -29,7 +29,7 @@
     {
         "id":"3",
         "type":"shoes",
-        "Brand-name":"  Reebok",
+        "Brand":"  Reebok",
         "NameProduct":"Reebok FLOATRIDE ENERGY 3.0 Shoes for Men white EU",
         "price":"1,369.00 ",
         "src":[
@@ -43,7 +43,7 @@
     {
         "id":"4",
         "type":"shoes",
-        "Brand-name":"  adidas",
+        "Brand":"  adidas",
         "NameProduct":"adidas Unisex Kids Predator Edge.4 Tf J, Color",
         "price":"789.00 ",
         "src":[
@@ -57,7 +57,7 @@
     {
         "id":"5",
         "type":"shoes",
-        "Brand-name":"  Adidas",
+        "Brand":"  Adidas",
         "NameProduct":"Adidas VULCRAID3R",
         "price":"1,289.00  ",
         "src":[
@@ -71,7 +71,7 @@
     {
         "id":"6",
         "type":"shoes",
-        "Brand-name":"  adidas",
+        "Brand":"  adidas",
         "NameProduct":"Adidas VULCRAID3R K GZ3334 SKATEBOARDING",
         "price":"949.00 ",
         "src":[
@@ -85,7 +85,7 @@
     {
         "id":"7",
         "type":"shoes",
-        "Brand-name":"  adidas",
+        "Brand":"  adidas",
         "NameProduct":"Adidas LITE RACER 3.0 GW3023 RUNNING",
         "price":"1,089.00 ",
         "src":[
@@ -99,7 +99,7 @@
     {
         "id":"8",
         "type":"shoes",
-        "Brand-name":"  adidas",
+        "Brand":"  adidas",
         "NameProduct":"Adidas X Ghosted.1 Textile Two-Tone Printed Front",
         "price":"5,049.00 ",
         "src":[
@@ -113,7 +113,7 @@
     {
         "id":"9",
         "type":"shoes",
-        "Brand-name":"Generic",
+        "Brand":"Generic",
         "NameProduct":"Romba Sport Shoes For Men",
         "price":"179 ",
         "src":[
@@ -127,7 +127,7 @@
     {
         "id":"10",
         "type":"shoes",
-        "Brand-name":"  salerno",
+        "Brand":"  salerno",
         "NameProduct":"Salerno Mesh Leather-Accent Contrast Side-Stripe",
         "price":"109.00 ",
         "src":[
@@ -141,7 +141,7 @@
     {
         "id": "1",
         "type":"shirts",
-        "Brand-name": "Nexus",
+        "Brand": "Nexus",
         "product-name": "Nexus men's Haze Training Top",
         "price": "270.00",
         "src": "./images/men_shirt/shirt1",
@@ -160,7 +160,7 @@
     {
         "id": "2",
         "type":"shirts",
-        "Brand-name": "Nexus",
+        "Brand": "Nexus",
         "product-name": "Nexus men's Modern Camo Training Top",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt2",
@@ -179,7 +179,7 @@
     {
         "id": "3",
         "type":"shirts",
-        "Brand-name": "Nexus",
+        "Brand": "Nexus",
         "product-name": "Nexus Men Camo Training T-Shirt",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt3",
@@ -198,7 +198,7 @@
     {
         "id": "4",
         "type":"shirts",
-        "Brand-name": "Nexus",
+        "Brand": "Nexus",
         "product-name": "Nexus men's Nexus Core Collection",
         "price": "300.00 ",
         "src": "./images/men_shirt/shirt4",
@@ -216,7 +216,7 @@
     },
     {
         "id": "5",
-        "Brand-name": "Ravin",
+        "Brand": "Ravin",
         "product-name": "Ravin mens Ravin 96441 Side Pocket Printed",
         "price": "289.99 ",
         "src": [
@@ -251,7 +251,7 @@
     {
         "id": "6",
         "type":"shirts",
-        "Brand-name": "CAESAR",
+        "Brand": "CAESAR",
         "product-name": "CAESAR Men Hoodie With Pants Training Suit Anorak",
         "price": "249 ",
         "src": [
@@ -286,7 +286,7 @@
     {
         "id": "7",
         "type":"shirts",
-        "Brand-name": "Coup",
+        "Brand": "Coup",
         "product-name": "Coup",
         "price": "389 ",
         "src": [
@@ -321,7 +321,7 @@
     {
         "id": "8",
         "type":"shirts",
-        "Brand-name": " Coup",
+        "Brand": " Coup",
         "product-name": "Coup mens Coup - Panel Blocked Hooded Sweatshirt with Long Sleeves Hooded Sweatshirt",
         "price": "699 ",
         "src": [
@@ -356,7 +356,7 @@
     {
         "id": "9",
         "type":"shirts",
-        "Brand-name": " Reebok",
+        "Brand": " Reebok",
         "product-name": "Reebok Men's Wor Sup Ss Graphic Tee T-Shirt",
         "price": "539 ",
         "src": [
@@ -391,7 +391,7 @@
     {
         "id": "10",
         "type":"shirts",
-        "Brand-name": " Generic",
+        "Brand": " Generic",
         "product-name": "Men's Lycra Indoor/Outdoor Bengalen Pants",
         "price": "99.99 ",
         "src": [

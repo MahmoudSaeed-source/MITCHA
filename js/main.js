@@ -35,7 +35,7 @@ Btn_close.addEventListener("click",(e) => {
 function filter() {
     const value_Input = input_Search.value;
     Get_Data(Url_all).then(data => {
-        if(value_Input == data.type || value_Input == data.Brand || value_Input == data.NameProduct || value_Input == data.price) {
+        if(value_Input === data.type || value_Input === data.Brand || value_Input === data.NameProduct || value_Input === data.price) {
           return  console.log(data)
         } else {
             return console.log("none")
