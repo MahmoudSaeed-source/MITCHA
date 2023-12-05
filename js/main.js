@@ -32,7 +32,7 @@ Btn_close.addEventListener("click",(e) => {
 let Prodcuts_Data = [];
 let results = [];
 input_Search.addEventListener("keyup",() => {
-    const viewSerchRosults_content = document.querySelector(".viewSerchRosults_content");
+    const viewSerchRosults_content = document.querySelector(".viewSearchResults_content");
     const inPut_Value = input_Search.value.toLowerCase();
     let filter_Prodcuts_Data = Prodcuts_Data.filter(pro => {
         return pro.brand.toLowerCase().includes(inPut_Value) || pro.title.toLowerCase().includes(inPut_Value)
